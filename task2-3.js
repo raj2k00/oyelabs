@@ -66,3 +66,4 @@ db.query(sql, [values], function (err) {
 // SELECT customer.customerId customer.name Subjects.subjectName
 // FROM Subjects Subject-student-mapping
 // INNER JOIN customer Subjects ON Subject-student-mapping.customerId = customer.customerId, Subject-student-mapping.customerId = Subject.subjectId
+// ORDER BY SubjectName ASC
