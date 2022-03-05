@@ -1,0 +1,20 @@
+// get all data
+GET http://localhost:3000/api/
+
+
+###
+// Post the data
+POST http://localhost:3000/api HTTP/1.1 
+Content-Type: application/json
+
+{
+    "name":"raj",
+    "email":"123@3.com",
+    "phone":234566
+}
+
+###
+// Get specific data
+GET http://localhost:3000/api/23456786 
+
+
