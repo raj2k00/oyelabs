@@ -62,3 +62,7 @@ db.query(sql, [values], function (err) {
 //-----------------------------------------------------------------
 
 // 2
+
+// SELECT customer.customerId customer.name Subjects.subjectName
+// FROM Subjects Subject-student-mapping
+// INNER JOIN customer Subjects ON Subject-student-mapping.customerId = customer.customerId, Subject-student-mapping.customerId = Subject.subjectId
